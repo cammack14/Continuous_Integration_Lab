@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/main/server.js",
   "scripts": {
-    "start": "node src/main/app.js",
+    "start": "node src/main/*.js",
     "test": "node ./node_modules/mocha/bin/mocha --exit \"src/test/cases/**/*.js\""
 
   },
